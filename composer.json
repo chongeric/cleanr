@@ -1,0 +1,30 @@
+{
+    "name": "eric/cleaner",
+    "description": "this is a first test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eric",
+            "email": "782934029@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Eric\\Cleaner\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eric\\Cleaner\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eric\\Cleaner\\CleanerServiceProvider"
+            ]
+        }
+    }
+
+}
