@@ -1,6 +1,7 @@
 {
     "name": "zhuangguiyang/cleaner",
     "description": "this is a first test",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -25,6 +26,6 @@
                 "Eric\\Cleaner\\CleanerServiceProvider"
             ]
         }
-    }
-
+    },
+    "version": "1.0.0"
 }
